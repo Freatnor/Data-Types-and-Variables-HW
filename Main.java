@@ -30,7 +30,7 @@ public class Main {
         String varH = "$";
         boolean varI = true;
         boolean varJ = (2 == 3);
-        Integer varK = Integer.valueOf("9,235");
+        Integer varK = Integer.valueOf("9235");
         boolean varL = varF.equals("Gelato is delicious!");
 
 
@@ -69,7 +69,9 @@ public class Main {
         int divisor = 3;
         int divisionResult = numerator / divisor;
         System.out.println(divisionResult);
-        /* 3 goes into 10 3 times with a remainder of 1 if using integer division. Because both of these variables are integers it will do integer division and leave any remainder.
+        /* 3 goes into 10 3 times with a remainder of 1 if using integer division.
+        Because both of these variables are integers it will do integer division and leave any remainder.
+        */
 
     }
 }
